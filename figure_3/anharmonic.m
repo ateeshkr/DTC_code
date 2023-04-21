@@ -74,3 +74,4 @@ function [ts,ys,freq,P1] = rk4_sto(f,tv,y0,N,epsilon_p,Fth)
     P1 = P2(1:L/2+1);
     P1(2:end-1) = 2*P1(2:end-1);
 end
+% this is the edited line
